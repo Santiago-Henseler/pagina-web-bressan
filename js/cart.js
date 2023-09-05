@@ -1,17 +1,47 @@
 ﻿let carroComprar = [];
 
 const productos = {
-    1: ["Remera",
-        "M",
-        "img/remera.png",
-        "500",
-        "idRem"],
+    1: ["Pua",
+        "-",
+        "img/merch1.jpg",
+        "-",
+        "idPua"],
 
-    2: ["Campera",
-        "M",
-        "img/remera.png",
-        "2500",
-        "idcam"],
+    2: ["Pin 'A Cientos de Kilómetros'",
+        "-",
+        "img/merch2.jpg",
+        "-",
+        "idpin1"],
+    3: ["Pin 'Último recurso'",
+        "-",
+        "img/merch3.jpg",
+        "-",
+        "idpin2"],
+    4: ["Pin 'logo'",
+        "-",
+        "img/merch4.jpg",
+        "-",
+        "idpin3"],
+    5: ["Pin logo 2",
+        "-",
+        "img/merch5.jpg",
+        "-",
+        "idpin4"],
+    6: ["Cuadernillo 'Último recurso'",
+        "-",
+        "img/merch6.jpg",
+        "-",
+        "idcuad1"],
+    7: ["Cuadernillo 'A Cientos de Kilómetros'",
+        "-",
+        "img/merch7.jpg",
+        "-",
+        "idcuad2"],
+    8: ["Cuadernillo logo",
+        "-",
+        "img/merch8.jpg",
+        "-",
+        "idcuad3"],
         
 }
 
@@ -139,19 +169,17 @@ function Comprar() {
 
     }
 
-    /*
+    
     let telefono = "5491161625030";
 
     let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
-		*_Bierhaus Henseler_*%0A
-		Pedido de **:%0A
-        Apellido: **%0A
+		*_Pedido hecho en joaquinbressan.com.ar_*%0A%0A
         ${prod}%0A%0A
         *Total:*$${precioFinal}%0A`
         ;
 
     window.open(url);
     location.reload(true);
-    */
+    
 
 }
